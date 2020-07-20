@@ -2,7 +2,12 @@
   "name": "granite-connected-index",
   "version": "0.0.0",
   "description": "Webcomponent granite-connected-index following open-wc recommendations",
-  "author": "granite-connected-index",
+  "homepage": "https://github.com/LostInBrittany/granite-connected-index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LostInBrittany/granite-connected-index"
+  },
+  "author": "Horacio Gonzalez <horacio.gonzalez@gmail.com>",
   "license": "MIT",
   "main": "index.js",
   "module": "index.js",
@@ -15,6 +20,7 @@
   },
   "devDependencies": {
     "es-dev-server": "^1.23.0",
-    "lodash": ">=4.17.19"
+    "lodash": ">=4.17.19",
+    "minimist": ">=1.2.3"
   }
 }
